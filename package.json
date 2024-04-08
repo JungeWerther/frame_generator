@@ -8,10 +8,13 @@
     "deploy": "vercel"
   },
   "dependencies": {
+    "@types/uuid": "^9.0.8",
     "@vercel/blob": "^0.22.3",
     "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
     "frog": "latest",
-    "hono": "^4"
+    "hono": "^4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "tsx": "^4.7.1",
