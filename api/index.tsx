@@ -125,7 +125,7 @@ app.frame('/', async (c) => {
       <div
         style={{
           alignItems: 'center',
-          background: `url(${url})`,
+          background: `url(${url ? url : 'https://h5gag6g8fqym9yjl.public.blob.vercel-storage.com/images/0aec1648-73d4-4892-8177-5e41dd3e4d10-ixfQSFT3krgGxdvbwooXWmntDYUQsi.png'})`,
           backgroundSize: '100% 100%',
           display: 'flex',
           flexDirection: 'column',
